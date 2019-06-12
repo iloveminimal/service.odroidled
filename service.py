@@ -8,7 +8,7 @@ triggers = [
     'heartbeat', # Heartbeat
 ]
 
-led_trigger_path = '/sys/devices/gpio_leds.43/leds/blue:heartbeat/trigger'
+led_trigger_path = '/sys/devices/gpio_leds.44/leds/blue:heartbeat/trigger'
 #led_trigger_path = '/dev/null'
 
 class SettingsMonitor(xbmc.Monitor):
